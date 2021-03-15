@@ -15,21 +15,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Application", "03-Applic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-WebApi", "04-WebApi", "{42287CA9-23A7-4BEF-9803-206F4B7021CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\04-WebApi\WebApi\WebApi.csproj", "{B0182809-EFF7-4860-9ACE-E5CF0177F1CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JTone.Application", "src\03-Application\JTone.Application\JTone.Application.csproj", "{0603EDA1-F661-4427-A3D3-E1697FDE0A7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JTone.Application", "src\03-Application\JTone.Application\JTone.Application.csproj", "{0603EDA1-F661-4427-A3D3-E1697FDE0A7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JTone.Application.Contracts", "src\03-Application\JTone.Application.Contracts\JTone.Application.Contracts.csproj", "{1AC5CF1C-77F1-4130-85A9-036A7D8F94FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JTone.Application.Contracts", "src\03-Application\JTone.Application.Contracts\JTone.Application.Contracts.csproj", "{1AC5CF1C-77F1-4130-85A9-036A7D8F94FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JTone.Domain", "src\02-Domain\JTone.Domain\JTone.Domain.csproj", "{DAAD8519-D867-49F6-AFB5-1097F2735420}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JTone.Domain", "src\02-Domain\JTone.Domain\JTone.Domain.csproj", "{DAAD8519-D867-49F6-AFB5-1097F2735420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JTone.IRepository", "src\01-Repository\JTone.IRepository\JTone.IRepository.csproj", "{724B1112-9B5A-4E0F-B4CF-2E4598DC237F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JTone.IRepository", "src\01-Repository\JTone.IRepository\JTone.IRepository.csproj", "{724B1112-9B5A-4E0F-B4CF-2E4598DC237F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JTone.Repository", "src\01-Repository\JTone.Repository\JTone.Repository.csproj", "{8141FB5E-F8E1-4BAF-8DA7-A2AFA3F5483C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JTone.Repository", "src\01-Repository\JTone.Repository\JTone.Repository.csproj", "{8141FB5E-F8E1-4BAF-8DA7-A2AFA3F5483C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JTone.Domain.Shared", "src\02-Domain\JTone.Domain.Shared\JTone.Domain.Shared.csproj", "{84C19862-41B2-4DCC-B902-5C88D364361D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JTone.Domain.Shared", "src\02-Domain\JTone.Domain.Shared\JTone.Domain.Shared.csproj", "{84C19862-41B2-4DCC-B902-5C88D364361D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JTone.EntityFrameworkCore", "src\01-Repository\JTone.EntityFrameworkCore\JTone.EntityFrameworkCore.csproj", "{C5F43F7D-26D0-458A-B995-178818BC6298}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JTone.EntityFrameworkCore", "src\01-Repository\JTone.EntityFrameworkCore\JTone.EntityFrameworkCore.csproj", "{C5F43F7D-26D0-458A-B995-178818BC6298}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\04-WebApi\WebApi\WebApi.csproj", "{59FBB487-9C8D-4BDA-844E-9E051BE74CB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +37,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B0182809-EFF7-4860-9ACE-E5CF0177F1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B0182809-EFF7-4860-9ACE-E5CF0177F1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B0182809-EFF7-4860-9ACE-E5CF0177F1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B0182809-EFF7-4860-9ACE-E5CF0177F1CE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0603EDA1-F661-4427-A3D3-E1697FDE0A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0603EDA1-F661-4427-A3D3-E1697FDE0A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0603EDA1-F661-4427-A3D3-E1697FDE0A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,6 +65,10 @@ Global
 		{C5F43F7D-26D0-458A-B995-178818BC6298}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5F43F7D-26D0-458A-B995-178818BC6298}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5F43F7D-26D0-458A-B995-178818BC6298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59FBB487-9C8D-4BDA-844E-9E051BE74CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59FBB487-9C8D-4BDA-844E-9E051BE74CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59FBB487-9C8D-4BDA-844E-9E051BE74CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59FBB487-9C8D-4BDA-844E-9E051BE74CB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,7 +78,6 @@ Global
 		{C5FB378E-4A28-44CF-B343-03899B81D7AA} = {6F5A7506-0997-462C-9BAB-8022D1022DCB}
 		{F7561711-3A47-4335-8618-D409DF32A262} = {6F5A7506-0997-462C-9BAB-8022D1022DCB}
 		{42287CA9-23A7-4BEF-9803-206F4B7021CB} = {6F5A7506-0997-462C-9BAB-8022D1022DCB}
-		{B0182809-EFF7-4860-9ACE-E5CF0177F1CE} = {42287CA9-23A7-4BEF-9803-206F4B7021CB}
 		{0603EDA1-F661-4427-A3D3-E1697FDE0A7B} = {F7561711-3A47-4335-8618-D409DF32A262}
 		{1AC5CF1C-77F1-4130-85A9-036A7D8F94FD} = {F7561711-3A47-4335-8618-D409DF32A262}
 		{DAAD8519-D867-49F6-AFB5-1097F2735420} = {C5FB378E-4A28-44CF-B343-03899B81D7AA}
@@ -86,6 +85,7 @@ Global
 		{8141FB5E-F8E1-4BAF-8DA7-A2AFA3F5483C} = {54672F22-7E68-4E3D-BB69-22E4E1123B2E}
 		{84C19862-41B2-4DCC-B902-5C88D364361D} = {C5FB378E-4A28-44CF-B343-03899B81D7AA}
 		{C5F43F7D-26D0-458A-B995-178818BC6298} = {54672F22-7E68-4E3D-BB69-22E4E1123B2E}
+		{59FBB487-9C8D-4BDA-844E-9E051BE74CB0} = {42287CA9-23A7-4BEF-9803-206F4B7021CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CD249207-E20C-423C-8592-DFFF933DB876}
